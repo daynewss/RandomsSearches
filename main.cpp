@@ -14,7 +14,13 @@ double fRand(double a, double b)
     double f = (double)rand() / RAND_MAX;
     return a + f * (b - a);
 }
-
+void printresults (int n, double *f)
+{
+    for (int i=0; i<n;i++)
+    {
+        cout << "f[" << i << "] " <<f[i] << endl;
+    }
+}
 
 int main()
 {
@@ -36,16 +42,22 @@ int main()
         xAll[i][1]=x[1];
         fAll[i]=f;
         if (f < fMin){
+            //isvesti i faila 'rezult_i_f' i ir f
+            //isvesti i faila 'rezult_x_f' x ir f
                 fMin = f;
                 xMin[0] = x[0]; xMin[1] = x[1];
+                //isvesti i faila 'rezul_i_fMin.txt' i ir fMin
             }
     }
 
-    cout << "fMin = " << fMin << endl;
-    cout << "xMin = (" << xMin[0] << ", " << xMin[1] << ")" << endl;
+    //cout << "fMin = " << fMin << endl;
+    //cout << "xMin = (" << xMin[0] << ", " << xMin[1] << ")" << endl;
+    //realizuoti rezultatu isvedima per f-ja printresults (int n, double *x)
+    printresults(100,&fAll[0]);
+    printresults(1,&fMin);
     for (int i=0; i<100;i++)
     {
-        cout <<"fAll[" << i+1 <<"]: " << fAll[i] << endl;
+        cout << "xMin = (" << xAll[i][0] << ", " << xAll[i][1] << ")" << endl;
     }
     return 0;
 }
