@@ -7,3 +7,4 @@ Atsitiktiniu paieskos metodu realizacijos
  - Rezultato išvedimas per --void-- funkciją
  - Išveda gautuosius rezultatus į išorinius failus tolesnei gautų rezultatų duomenų analizei
  - Išrenka nurodytą skaičių geriausių sprendinių, t.y. surūšuoja visus bandymų taškus panaudojant selection, insertion arba bubble algoritmą)
+Plačiau apie Github 'pagražinimas' http://stackoverflow.com/questions/8655937/github-readme-and-readme-md
