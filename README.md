@@ -3,10 +3,7 @@ RandomsSearches
 
 Atsitiktiniu paieskos metodu realizacijos
 
-v2.0 planuojame ádiegti ðias galimybes:
-1. Rezultato iðvedimas per void funkcijà
-2. Iðveda gautuosius rezultatus á iðorinius failus 
-	tolesnei gautø rezultatø duomenø analizei
-3. Iðrenka nurodytà skaièiø geriausiø sprendiniø, 
-	t.y. surûðiuoja visus bandymø taðkus (panaudojant selection, insertion arba bubble algoritmà)
-
+#v2.0 planuojame Ä¯diegti ï¿½ias galimybes:
+ - Rezultato iï¿½vedimas per void funkcijï¿½
+ - Iï¿½veda gautuosius rezultatus ï¿½ iï¿½orinius failus tolesnei gautï¿½ rezultatï¿½ duomenï¿½ analizei
+ - Iï¿½renka nurodytï¿½ skaiï¿½iï¿½ geriausiï¿½ sprendiniï¿½, t.y. surï¿½ï¿½iuoja visus bandymï¿½ taï¿½kus (panaudojant selection, insertion arba bubble algoritmï¿½)
